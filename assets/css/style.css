@@ -1,0 +1,25 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.box-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px 15px;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1 1 calc(33.33% - 15px);
+    max-width: calc(33.33% - 15px);
+    height: 100px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
